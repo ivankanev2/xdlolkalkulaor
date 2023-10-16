@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="363.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.xdlolkalkulaor.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+    <Label fx:id="welcomeText" />
+    <TextArea fx:id="result" prefHeight="33.0" prefWidth="85.0" />
+    <Button layoutX="23.0" layoutY="198.0" onAction="#button1" prefHeight="25.0" prefWidth="64.0" text="1" />
+   <Button layoutX="251.0" layoutY="124.0" mnemonicParsing="false" onAction="#buttonDelete" prefHeight="25.0" prefWidth="64.0" text="delete" />
+   <Button layoutX="21.0" layoutY="251.0" mnemonicParsing="false" onAction="#button4" prefHeight="25.0" prefWidth="64.0" text="4" />
+   <Button layoutX="21.0" layoutY="300.0" mnemonicParsing="false" onAction="#button7" prefHeight="25.0" prefWidth="64.0" text="7" />
+   <Button layoutX="134.0" layoutY="198.0" mnemonicParsing="false" onAction="#button2" prefHeight="25.0" prefWidth="64.0" text="2" />
+   <Button layoutX="134.0" layoutY="251.0" mnemonicParsing="false" onAction="#button5" prefHeight="25.0" prefWidth="64.0" text="5" />
+   <Button layoutX="134.0" layoutY="300.0" mnemonicParsing="false" onAction="#button8" prefHeight="25.0" prefWidth="64.0" text="8" />
+   <Button layoutX="251.0" layoutY="198.0" mnemonicParsing="false" onAction="#button3" prefHeight="25.0" prefWidth="64.0" text="3" />
+   <Button layoutX="251.0" layoutY="251.0" mnemonicParsing="false" onAction="#button6" prefHeight="25.0" prefWidth="64.0" text="6" />
+   <Button layoutX="251.0" layoutY="300.0" mnemonicParsing="false" onAction="#button9" prefHeight="25.0" prefWidth="64.0" text="9" />
+   <Button layoutX="134.0" layoutY="124.0" mnemonicParsing="false" onAction="#buttonDivide" prefHeight="25.0" prefWidth="64.0" text="/" />
+   <Button layoutX="21.0" layoutY="124.0" mnemonicParsing="false" onAction="#buttonX" prefHeight="25.0" prefWidth="64.0" text="X" />
+   <Button layoutX="369.0" layoutY="198.0" mnemonicParsing="false" onAction="#buttonPlus" prefHeight="25.0" prefWidth="64.0" text="+" />
+   <Button layoutX="369.0" layoutY="251.0" mnemonicParsing="false" onAction="#buttonMinus" prefHeight="25.0" prefWidth="64.0" text="-" />
+   <TextArea fx:id="Text1" layoutX="99.0" layoutY="14.0" prefHeight="80.0" prefWidth="296.0" />
+   <Button layoutX="369.0" layoutY="300.0" mnemonicParsing="false" onAction="#buttonEqual" prefHeight="25.0" prefWidth="64.0" text="=" />
+</AnchorPane>
